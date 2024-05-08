@@ -10,7 +10,7 @@ Firmware download address ：[TOTOLINK](https://www.totolink.net/home/menu/detai
 
 `V7 ` retrieves the value from the ` password ` field input by the user and processes it in the ` urldecode ` function. The processed result is stored in the stack.
 
-![image-20240508121257780](/image-20240508121257780.png)
+![image-20240508121257780](https://github.com/s4ndw1ch136/IOT-vuln-reports/edit/main/totolink%20LR350/image-20240508121257780.png)
 
 As shown in the two images below, in the function`urldecode` , the processed (`password`) is written to a buffer  located on the stack. **However, there is no validation to check if the `password` (`a1`) exceeds the length of the buffer (`a2`, `v3`).** Therefore, attackers can hijack the program or cause a DDoS attack by carefully constructing data.
 
