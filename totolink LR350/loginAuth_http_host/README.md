@@ -8,7 +8,7 @@ Firmware download address ：[TOTOLINK](https://www.totolink.net/home/menu/detai
 
 ### Analysis
 
-![image-20240523220326496](/image-20240523220326496.png)
+![image-20240523220326496](./image-20240523220326496.png)
 
 As shown in the figure, if the content of the "http_host" field is not empty, it will be copied onto the stack without checking the length, which can lead to a stack overflow vulnerability.
 
