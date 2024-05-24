@@ -1,4 +1,4 @@
-# TOTOLINK CP900L v4.1.5cu.798_B20221228 Stack Overflow
+# TOTOLINK CP900L v4.1.5cu.798_B20221228 hard code password for telnet
 
 ### Product Information
 
