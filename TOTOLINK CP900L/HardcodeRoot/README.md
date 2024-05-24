@@ -14,4 +14,4 @@ There is a hard code password for root in /etc/shadow.sample.
 
 The decrypted password is cs2012.
 
-![image-20240524130035558](./image-20240524130035558.png)
+![image-20240524130035558](./image-20240524180711617.png)
