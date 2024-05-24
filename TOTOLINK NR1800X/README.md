@@ -2,7 +2,7 @@
 
 ### Product Information
 
-Product: TOTOLINK LR350 Firmware Version: V9.3.5u.6369_B20220309 Manufacturer's website information：https://www.totolink.net/ 
+Product: TOTOLINK NR1800X Firmware Version: v9.1.0u.6681_B20230703 Manufacturer's website information：https://www.totolink.net/ 
 
 Firmware download address ：[TOTOLINK](https://www.totolink.net/home/menu/detail/menu_listtpl/download/id/225/ids/36.html)
 
