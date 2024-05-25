@@ -12,7 +12,7 @@ In the function setPortForwardRules, attackers can post the parameter desc witho
 
 ![image-20240525133036413](./image-20240525133036413.png)
 
-![image-20240525133053163](/image-20240525133053163.png)
+![image-20240525133053163](./image-20240525133053163.png)
 
 ### POC
 
