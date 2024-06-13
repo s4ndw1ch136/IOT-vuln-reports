@@ -10,7 +10,7 @@ Firmware download address ：[https://support.dlink.com/resource/SECURITY_ADVISE
 
 ### Analysis
 
-There is a hard code password for root in /etc/password.
+There is a hard code password for root in /etc/passwd.
 
 ![image-20240613095059667](./image-20240613095059667.png)
 
