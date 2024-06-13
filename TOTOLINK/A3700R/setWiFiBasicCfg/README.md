@@ -10,7 +10,7 @@ Firmware download address ：[https://download.totolink.tw/uploads/firmware/A370
 
 ### CVE-ID : 
 
-CVE-2024-37634
+CVE-2024-37635
 
 ### Analysis
 
