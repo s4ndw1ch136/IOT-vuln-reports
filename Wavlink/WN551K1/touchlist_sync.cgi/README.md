@@ -1,4 +1,4 @@
-# Wavlink WN551K1  /cgi-bin/ExportAllSettings.sh Sensitive information leakage
+# WAVLINK WN551K1 found a command injection vulnerability through the IP parameter of /cgi-bin/touchlist_sync.cgi.
 
 Product: Wavlink WN551K1
 
